@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./layout/RootLayout";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
-
+// import { env } from 'node:process';
 
 // const router = createBrowserRouter(
 //   createRoutesFromElements(
@@ -15,6 +15,7 @@ import Home from "./pages/Home/Home";
 //   )
 // )
 
+
 const router = createBrowserRouter([
   {
     path:'/' ,
@@ -24,7 +25,9 @@ const router = createBrowserRouter([
       { path:'about', element:<About /> },
     ]
   }
-]);
+],{
+  basename: '/react-spa',
+});
 
 
 export default router

@@ -1,6 +1,6 @@
 import s from "./GetTheDrop.module.css";
-import trademark from '../../../public/icon/trademark.svg'
-import ellipse from '../../../public/icon/ellipse.svg'
+import trademark from '/icon/trademark.svg?url'
+import ellipse from '/icon/ellipse.svg?url'
 
 function GetTheDrop() {
   return (

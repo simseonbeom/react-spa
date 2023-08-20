@@ -8,6 +8,7 @@ const isDev = env.NODE_ENV === 'development';
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/react-spa/", 
+  // base: env.PUBLIC_URL, 
   plugins: [react()],
   css: {
     devSourcemap: true,
