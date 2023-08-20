@@ -1,0 +1,49 @@
+
+
+.item{
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.name{
+  
+}
+
+.name > div{
+  transition:all .5s;
+  transition-delay:0;
+  opacity: 0;
+  filter: blur(3px);
+}
+
+.item:hover .name > div{
+  opacity: 1;
+  filter: blur(0);
+
+}
+
+.name > div:nth-child(1){
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.name > div:nth-child(2){
+  transition-delay:0.2s
+}
+
+.price{
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  font-weight: 600;
+  font-size: 3rem;
+  transition: all .5s;
+  opacity:0;
+  transform: translateY(50px)
+}
+
+
+.item:hover .price{
+  opacity:1;
+  transform: translateY(0)
+}

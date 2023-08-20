@@ -1,0 +1,25 @@
+
+
+.footer{
+  /* height: calc(100vh - 50px); */
+  background: var(--color-black);
+  color:white;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+
+.footer > div{
+  max-width: 50vw;
+  font-size: 10rem;
+  margin-bottom: 5rem;
+}
+
+
+
+.footer button{
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  border-radius: 20px;
+}

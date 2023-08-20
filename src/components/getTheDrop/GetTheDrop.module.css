@@ -1,0 +1,14 @@
+.getTheDrop {
+  position: fixed;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  z-index: 10;
+
+  & span {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+  }
+}
