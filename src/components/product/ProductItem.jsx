@@ -22,7 +22,7 @@ function ProductItem({ item }) {
 
   return (
     <li className={s.item} data-name={item.name} onClick={handleClick}>
-      <DelayLink delay={500} onDelayStart={start} onDelayEnd={end} to="/about">
+      <DelayLink delay={1000} onDelayStart={start} onDelayEnd={end} to="/about">
         <img src={getPbImageURL(item, "photo")} alt="" />
         <div className="textContainer">
           <div className={s.name}>
